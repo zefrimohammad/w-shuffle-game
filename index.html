@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Shuffle Game</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div id="container-of-all">
+        <div id="word-div">Die <span id="dashes-span"></span></div>
+        <div id="container-of-squares"></div>
+        <div id="control-buttons">
+            <div id="reset-button">&#x2715</div>
+            <div id="previous-button"><</div>
+            <div id="next-button">></div>
+        </div>
+        <audio id="wrong" preload="auto">
+            <source src="https://raw.githubusercontent.com/zefrimohammad/sounds/master/wrong.mp3" type="audio/mpeg" />
+        </audio>
+        <audio id="correct" preload="auto">
+            <source src="https://raw.githubusercontent.com/zefrimohammad/sounds/master/correct.mp3" type="audio/mpeg" />
+        </audio>
+        <audio id="victory" preload="auto">
+            <source src="https://raw.githubusercontent.com/zefrimohammad/sounds/master/victory.mp3" type="audio/mpeg" />
+        </audio>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
